@@ -1,0 +1,13 @@
+// Header
+header {
+  color: white;
+  overflow: hidden;
+  padding-bottom: $unit;
+}
+
+header .logo {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: ($unit * 1.5) auto;
+}

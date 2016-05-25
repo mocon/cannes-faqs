@@ -1,0 +1,13 @@
+// Buttons
+.button-lg {
+  display: block;
+  background-color: $cannes-beige;
+  border: 1px solid $gg-light-2;
+  margin-bottom: ($unit * 1.5);
+}
+
+.button-emergency {
+  color: white;
+  background-color: $cannes-red;
+  border-color: $cannes-red;
+}

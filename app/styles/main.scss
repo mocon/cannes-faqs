@@ -1,0 +1,14 @@
+$icon-font-path: "../fonts/";
+
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+@import 'cannes/_colors';
+@import 'cannes/_spacing';
+@import 'cannes/_type';
+@import 'cannes/_svg';
+@import 'cannes/_border-radius';
+@import 'cannes/_buttons';
+@import 'cannes/_links';
+
+@import 'cannes/_header';
+@import 'cannes/_footer';

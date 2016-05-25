@@ -12,3 +12,13 @@ $icon-font-path: "../fonts/";
 
 @import 'cannes/_header';
 @import 'cannes/_footer';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}

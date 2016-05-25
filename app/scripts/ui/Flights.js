@@ -5,10 +5,15 @@ import Header from './Header'
 import Footer from './Footer'
 
 var Flights = React.createClass({
+  getInitialState: function() {
+    return {
+      pageTitle: 'Flight Information'
+    }
+  },
   render: function() {
     return (
       <div>
-        <Header />
+        <Header pageTitle={this.state.pageTitle} />
         <section className="main-content -p-v-4 -p-h-2">
           <div className="container"> 
             <p>Flights page content goes here.</p>

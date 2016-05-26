@@ -10,6 +10,9 @@ var ThingsToKnow = React.createClass({
       pageTitle: 'Some useful things to know'
     }
   },
+  componentDidMount: function() {
+    window.scrollTo(0, 0);
+  },
   render: function() {
     return (
       <div>

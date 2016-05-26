@@ -10,6 +10,9 @@ var CannesEvents = React.createClass({
       pageTitle: 'Official Cannes Event Schedule'
     }
   },
+  componentDidMount: function() {
+    window.scrollTo(0, 0);
+  },
   render: function() {
     return (
       <div>

@@ -5,6 +5,9 @@ import Header from './Header'
 import Footer from './Footer'
 
 var Home = React.createClass({
+  componentDidMount: function() {
+    window.scrollTo(0, 0);
+  },
   render: function() {
     return (
       <div>

@@ -10,6 +10,9 @@ var Flights = React.createClass({
       pageTitle: 'Flight Information'
     }
   },
+  componentDidMount: function() {
+    window.scrollTo(0, 0);
+  },
   render: function() {
     return (
       <div>

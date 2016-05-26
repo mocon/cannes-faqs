@@ -10,6 +10,9 @@ var Emergency = React.createClass({
       pageTitle: 'Emergency Contact Information'
     }
   },
+  componentDidMount: function() {
+    window.scrollTo(0, 0);
+  },
   render: function() {
     return (
       <div>
